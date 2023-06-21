@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0px;
+        }
+
+        body {
+            background-image: url(Imagem\ Fundo\ Body.jpg);
+        }
+
+
+header {
+
+background-color: rgba(11, 37, 14, 0.134);
+box-shadow: black 0px 0px 5px;
+margin-bottom: 10px; /* USADO PARA SEPARAR O "header" do "nav" */
+border-radius: 5px;
+
+
+}
+
+header > img {
+max-width: 150px;
+min-width: 120px;
+display: block;
+margin: auto;
+padding: 5px;
+
+
+
+
+}
+
+header > img:hover {
+transform: translate(-6px, -6px);
+filter: drop-shadow(6px 6px 10px black);
+transition: 1s;
+}
+
+
+
+/* Menu de Navegação*/
+
+nav {
+min-width: 320px;
+margin: auto;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+background-color: #014034;
+border-top: black 1px solid;
+border-bottom:black 1px solid;
+border-right: black 1px solid; 
+border-left: black 1px solid ;
+box-shadow: black -1px 5px 20px;
+border-radius: 5px 5px 0px 0px; 
+
+}
+
+nav > a {
+padding-left: 20px ;
+padding-right: 20px ;
+padding-top: 8px;
+padding-bottom: 8px;
+text-decoration: none;
+color: rgb(240, 240, 240);   
+
+}
+
+nav > a:hover {
+background-color: #026a57;
+color: white;
+border-radius: 5px;
+transition: 0.6s;
+cursor: pointer;
+text-decoration: underline;
+
+}
+
+
+
+
+        form {
+            max-width: 350px;
+            min-width: 120px;
+            background-color: rgba(0, 0, 0, 0.704);
+            margin: auto;
+            margin-top: 25px;
+            text-align: center;
+            border-radius: 5px;
+            border: none;
+            margin-bottom: 30px;
+            box-shadow: 5px 4px 9px black;
+   
+        }
+
+        input ,textarea, button {
+            text-decoration: none;
+            
+            border: none;
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 10px; 
+            color: rgb(0, 0, 0);
+            font-family: Arial, Helvetica, sans-serif;
+     
+         }
+
+         button {
+            margin-bottom: 15px;
+            border-radius: 15px;
+            background-color: dodgerblue;
+            font-size: 16px;
+         }
+
+         button:hover {
+            background-color: darkturquoise;
+            
+
+            
+         }
+
+         
+        
+        h1 {
+            color: #ffffff;
+            padding: 10px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 25px;
+
+        }
+.redessociais {
+    max-width: 1000px;
+    min-width: 320px;
+    text-align: center;
+    
+
+}
+
+.redessociais > a > img {
+min-width: 4px;
+max-width: 58px;
+padding-top: 10px;
+padding-bottom: 10px;
+display: inline;
+padding-left: 10px;
+padding-right: 10px;
+
+}
+
+
+.redessociais > a > img:hover {
+    transform: translate(-1px,-1px);
+    transition: 0.5s;  
+    filter: drop-shadow(6px 6px 10px black);
+
+}
+h3 {
+    color: white;
+    font-size: 25px;
+}
+footer {
+        padding-top: 0%;
+        text-align: justify;
+        text-align: center;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Logo Cabeçalho.png" title="Arogran Granitos Ltda" alt="">
+        
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="ajuda.html">Ajuda</a>
+            <a href="sobre.html">Sobre</a>
+            
+        </nav>
+
+</header>
+    <form action="https://formsubmit.co/josuep.l@outlook.com" method="POST">
+        <h1>Envie Uma Mensagem</h1>
+        <input type="text" name="Nome" placeholder="Digite seu Nome" required>
+        <br> <br>
+        <input type="email" name="Email" placeholder="Endereço de e-mail" required>
+        <br> <br>
+        <input type="tel" name="Telefone/Celular" placeholder="(27) 9 xxxx-xxx" required> 
+        <br> <br>
+        <textarea name="message" cols="30" rows="10" placeholder="Digie sua mensagem" required></textarea>
+        <br> <br>
+        <button type="submit">Enviar</button>
+
+        <input type="hidden" name="_subject" value="Site Arogran">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="_honey" style="display: none;">
+        <input type="hidden" name="_next" value="https://arogran-granitos.netlify.app/Agradecimento.html">
+
+        <h3>Fale Conosco</h3>
+        
+                <div class="redessociais">
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=5527996550967"><img src="zap.png" alt="" title="Fale Conosco!"></a>
+                    <a target="_blank" href="https://www.instagram.com/arogran.granitos/"><img style="min-width: 45px; max-width: 75px;"  src="insta.png"  alt="" title="Siga-Nos"></a>
+                    <a target="_blank" href="https://www.youtube.com/@josuelima4695/about"><img style="padding-bottom: 14px; min-width: 42px; max-width: 66px;" src="youtube.png" alt="" title="Acesse Nosos Canal!!"></a>
+                </div>
+
+    </form> 
+
+    <footer>
+        Copyright © 2023/Josué <br>
+        Todos Os Direitos Reservados
+    </footer>
+
+
+
+</body>
+</html>

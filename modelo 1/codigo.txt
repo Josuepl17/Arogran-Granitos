@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #02732A;
+    --cor1: #038C33;
+    --cor3: #2D7345;
+    --cor4: #96D9AD;
+    --cor5: #9b9a9a;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color:#9b9a9a49;
+}
+
+
+/* Cabeçalho*/
+header {
+    border-bottom:black 1px solid;
+    background-color:  white;
+    box-shadow: black 0px 0px 3px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+header > img {
+    width: 10%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+/* Menu de Navegação*/
+
+nav {
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #02732A;
+    border-bottom:black 1px solid;
+    border-right: black 1px solid; 
+    border-left: black 1px solid ;
+    box-shadow: black -1px 5px 3px;
+    
+
+    
+}
+
+nav > a {
+    padding-left: 20px ;
+    padding-right: 20px ;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+
+/* Textos*/
+
+main {
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto; 
+    background-color: white;
+    border-bottom:black 1px solid;
+    border-right: black 1px solid; 
+    border-left: black 1px solid ;
+    box-shadow: black 0px 0px 3px;
+}
+
+main > h2 {
+padding: 2px;
+
+}
+
+main > p {
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    text-align: justify;
+}
+
+main > h3 {
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 6px;
+}
+
+main > h4 {
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+/*Video Menu*/
+
+main > video {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+/*rodape*/
+
+footer {
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    border-bottom:black 1px solid;
+    border-right: black 1px solid; 
+    border-left: black 1px solid ;
+    margin-bottom: 10px;
+    box-shadow: black 0px 0px 3px;
+}

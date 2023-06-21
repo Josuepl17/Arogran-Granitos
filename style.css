@@ -1,0 +1,259 @@
+@charset "UTF-8";
+
+
+
+/*CONFIGURAÇOES GERAIS*/
+
+:root {
+    --cor0: #02732A;
+    --cor1: #038C33;
+    --cor3: #2D7345;
+    --cor4: #96D9AD;
+    --cor5: #9b9a9a;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+    
+
+
+/*PAGINA CORPO*/            
+
+body {
+    background-image: url(Imagem\ Fundo\ Body.jpg);
+
+    
+}
+
+
+
+
+
+
+/* Cabeçalho*/
+header {
+
+    
+    box-shadow: black 0px 0px 5px;
+    margin-bottom: 10px; /* USADO PARA SEPARAR O "header" do "nav" */
+    border-radius: 5px;
+
+
+}
+
+header:hover {
+    box-shadow: 0px 0px 50px #014034 ;
+    background-color: #01403423;
+    transition: 2s;
+
+}
+
+header > img {
+    max-width: 180px;
+    min-width: 120px;
+    display: block;
+    margin: auto;
+    padding: 5px;
+
+    
+
+
+}
+
+header > img:hover {
+    transform: translate(-6px, -6px);
+    filter: drop-shadow(6px 6px 10px black);
+    transition: 1s;
+}
+
+
+
+/* Menu de Navegação*/
+
+nav {
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #014034;
+    border-top: black 1px solid;
+    border-bottom:black 1px solid;
+    border-right: black 1px solid; 
+    border-left: black 1px solid ;
+    box-shadow: black -1px 5px 20px;
+    border-radius: 5px 5px 0px 0px; 
+    
+}
+
+nav > a {
+    padding-left: 15px ;
+    padding-right: 15px ;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-decoration: none;
+    color: rgb(240, 240, 240);   
+    
+}
+
+nav > a:hover {
+    background-color: #026a57;
+    color: white;
+    border-radius: 5px;
+    transition: 0.6s;
+    cursor: pointer;
+    text-decoration: underline;
+
+
+    
+
+}
+
+
+
+/*MENU PRINCIPAL TEXTO*/
+
+main {
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto; 
+    background-color: rgba(235, 235, 235, 0.884);
+    border-bottom:black 1px solid;
+    border-right: black 1px solid; 
+    border-left: black 1px solid ;
+    box-shadow: black 0px 0px 8px;
+}
+
+main > h2 {
+padding: 2px;
+padding-left: 30px;
+
+}
+
+main > p {
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    text-align: justify;
+    
+    
+}
+
+main > h3 {
+
+    font-size: 22px;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 6px;
+    background-color: #014034;
+    color: white;
+    border-radius: 0px 30px 0px 30px;
+    font-weight: 100;
+
+}
+
+main > h4 {
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 16px;
+    color: #014034;
+    
+}
+
+
+
+
+
+/*MEDIAS MENU PRINCIPAL*/
+
+main > video {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 15px; /* esse Padding anula os 10px de cima nesta função bottom*/
+    box-shadow: 10px solid black;
+    
+}
+
+main > img {
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+
+
+/* Redes Sociais */
+
+.redessociais {
+    max-width: 1000px;
+    min-width: 320px;
+    text-align: center;
+
+}
+
+.redessociais > a > img {
+min-width: 5px;
+max-width: 58px;
+padding-top: 10px;
+padding-bottom: 10px;
+display: inline;
+padding-left: 10px;
+padding-right: 10px;
+
+}
+
+
+.redessociais > a > img:hover {
+    transform: translate(-1px,-1px);
+    transition: 0.5s;  
+    filter: drop-shadow(6px 6px 10px black);
+    
+
+}
+
+
+/*RODAPE DO SITE*/
+
+footer {
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    border-bottom:black 1px solid;
+    border-right: black 1px solid; 
+    border-left: black 1px solid ;
+    margin-bottom: 50px;
+    box-shadow: black 0px 0px 8px;
+    background-color: rgba(235, 235, 235, 0.884);
+    border-radius: 0px 0px 10px 10px;
+    
+}
+
+footer > h4 {
+    font-size: 21px;
+    padding-top: 8px;
+    color: #014034;
+    text-decoration: underline;
+    
+
+}
+
+footer > p {
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+
+
+
+

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajuda</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<style>
+
+header {
+    background-color: rgba(11, 37, 14, 0.134);
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+    margin-bottom: 10px; /* USADO PARA SEPARAR O "header" do "nav" */
+    border-radius: 5px;
+
+
+}
+
+header > img {
+max-width: 150px;
+min-width: 120px;
+display: block;
+margin: auto;
+padding: 5px;
+
+
+
+
+}
+
+header > img:hover {
+transform: translate(-6px, -6px);
+filter: drop-shadow(6px 6px 10px black);
+transition: 1s;
+}
+
+
+
+/* Menu de Navegação*/
+
+nav {
+min-width: 320px;
+margin: auto;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+background-color: #014034;
+border-top: black 1px solid;
+border-bottom:black 1px solid;
+border-right: black 1px solid; 
+border-left: black 1px solid ;
+box-shadow: black -1px 5px 20px;
+border-radius: 5px 5px 0px 0px; 
+
+}
+
+nav > a {
+padding-left: 20px ;
+padding-right: 20px ;
+padding-top: 8px;
+padding-bottom: 8px;
+text-decoration: none;
+color: rgb(240, 240, 240);   
+
+}
+
+nav > a:hover {
+background-color: #026a57;
+color: white;
+border-radius: 5px 5px 0px 0px;
+transition: 0.6s;
+cursor: pointer;
+text-decoration: underline;
+
+
+
+
+}
+    main {
+        max-width: 1200px;
+        min-width: 320px;
+        margin: auto;
+        background-color: rgba(255, 255, 255, 0.764);
+        border-radius: 0px 0px 10px 10px;
+        box-shadow: 0px 0px 10px black;
+    }
+
+    h1, h2 {
+        text-align: center;   
+        margin-top: -10px;
+    }
+
+    main > a > img {
+        width: 35%;
+        display: block;
+        margin: auto;
+        border-radius: 20px;
+        border: 1px solid black;
+    }
+
+    body {
+        background-image:url(Imagem\ Fundo\ Body.jpg);
+    }
+
+    main> a > img:hover {
+        transform: translate(-5px, -5px);
+        box-shadow: 0px 0px 10px black;
+        transition: 2s;
+    }
+
+    footer {
+        padding-top: 350px;
+        text-align: justify;
+        text-align: center;
+    }
+</style>
+<body>
+    <header>
+        <img src="Logo Cabeçalho.png" title="Arogran Granitos Ltda" alt="">
+        
+        <nav>
+            <a href="index.html">Inicio</a>
+
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+
+</header>
+    
+
+    <main>
+        <h1>Como Chegar ?</h1>
+        <a target="_blank" href="https://goo.gl/maps/EZqbZVoK9Th2caBM7"><img src="mapa.jpg" alt="mapa"></a>
+        <br>
+        <h2>Click na Imagem Acima</h2>
+       
+    </main>
+
+    <footer>
+        Copyright © 2023/Josué <br>
+        Todos Os Direitos Reservados
+    </footer>
+</body>
+</html>
